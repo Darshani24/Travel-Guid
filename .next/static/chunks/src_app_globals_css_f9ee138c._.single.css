@@ -337,6 +337,10 @@
     height: auto;
   }
 
+  .min-h-\[400px\] {
+    min-height: 400px;
+  }
+
   .min-h-\[500px\] {
     min-height: 500px;
   }
