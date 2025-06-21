@@ -24,41 +24,82 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 const Contact = ()=>{
-    return(//  <section className="px-6 py-10 flex flex-col justify-center items-center min-h-screen bg-gray-50">
-    //   <h1 className="text-3xl font-bold mb-8">Get in Touch</h1>
-    //   <p className="mb-8 text-center max-w-md">
-    //     We'd love to hear from you! Send us a message for questions or collaborations.
-    //   </p>
-    //   <div className="bg-green-50 shadow-lg rounded-lg p-8 w-full max-w-md">
-    //     <form className="space-y-6">
-    //       <input
-    //         type="text"
-    //         placeholder="Your Name"
-    //         className="w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
-    //       />
-    //       <input
-    //         type="email"
-    //         placeholder="Your Email"
-    //         className="w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
-    //       />
-    //       <textarea
-    //         placeholder="Your Message"
-    //         rows={5}
-    //         className="w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
-    //       />
-    //       <button className="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-800 mx-auto block transition">
-    //         Send Message
-    //       </button>
-    //     </form>
-    //   </div>
-    // </section>
-    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        children: "Contact Page"
-    }, void 0, false, {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "px-6 py-10 flex flex-col justify-center items-center min-h-screen bg-gray-50",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                className: "text-3xl font-bold mb-8",
+                children: "Get in Touch"
+            }, void 0, false, {
+                fileName: "[project]/src/app/contact/page.js",
+                lineNumber: 6,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "mb-8 text-center max-w-md",
+                children: "We'd love to hear from you! Send us a message for questions or collaborations."
+            }, void 0, false, {
+                fileName: "[project]/src/app/contact/page.js",
+                lineNumber: 7,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "bg-green-50 shadow-lg rounded-lg p-8 w-full max-w-md",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                    className: "space-y-6",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                            type: "text",
+                            placeholder: "Your Name",
+                            className: "w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/contact/page.js",
+                            lineNumber: 14,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                            type: "email",
+                            placeholder: "Your Email",
+                            className: "w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/contact/page.js",
+                            lineNumber: 19,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+                            placeholder: "Your Message",
+                            rows: 5,
+                            className: "w-full border border-gray-300 p-3 rounded focus:outline-none focus:ring-2 focus:ring-green-500"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/contact/page.js",
+                            lineNumber: 24,
+                            columnNumber: 12
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "bg-green-600 text-white px-6 py-3 rounded hover:bg-green-800 mx-auto block transition",
+                            children: "Send Message"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/contact/page.js",
+                            lineNumber: 30,
+                            columnNumber: 12
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/app/contact/page.js",
+                    lineNumber: 13,
+                    columnNumber: 8
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/contact/page.js",
+                lineNumber: 12,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/src/app/contact/page.js",
-        lineNumber: 36,
-        columnNumber: 5
-    }, this));
+        lineNumber: 5,
+        columnNumber: 6
+    }, this);
 };
 const __TURBOPACK__default__export__ = Contact;
 }}),
