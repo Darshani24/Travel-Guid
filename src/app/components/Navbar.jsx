@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="bg-green-900 px-6 py-4">
       <div className="flex items-center justify-between">
-        {/* Logo */}
+        
         <h1 className="font-bold text-2xl text-gray-950 cursor-pointer">
           Guide-<span className="text-white">U</span>
         </h1>
