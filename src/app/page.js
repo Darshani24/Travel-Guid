@@ -10,7 +10,7 @@ export default function Home() {
       
   <button className="bg-green-500 p-4 rounded-2xl text-xl ">Downlod App</button>
      
-    {/* <div className="pt-5 w-[350px] h-[350px] md:h-[550px] md:w-full md:p-10 lg:h-[600px] lg:p-8">
+    <div className="pt-5 w-[350px] h-[350px] md:h-[550px] md:w-full md:p-10 lg:h-[600px] lg:p-8">
   <Image
     src="/images/Backgroundimg.jpeg"
     alt="Beautiful travel destination"
@@ -19,7 +19,7 @@ export default function Home() {
     className="rounded-lg w-full h-auto object-cover"
     priority
   />
-</div> */}
+</div>
       </div>
 
   
