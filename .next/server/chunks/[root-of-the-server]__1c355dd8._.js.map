@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Darshani/Desktop/New2/Travel-Guid/src/app/api/db-test/route.js"],"sourcesContent":["import clientPromise from '@/lib/mongodb'; // adjust if your mongodb.js is elsewhere\r\n\r\nexport async function GET() {\r\n  try {\r\n    const client = await clientPromise;\r\n    const db = client.db();\r\n    const result = await db.admin().ping();\r\n\r\n    return Response.json({ connected: true, result });\r\n  } catch (error) {\r\n    console.error(\"❌ MongoDB connection error:\", error);\r\n    return new Response(JSON.stringify({ connected: false, error: error.message }), {\r\n      status: 500,\r\n    });\r\n  }\r\n}"],"names":[],"mappings":";;;;;;;;;AAEO,eAAe;IACpB,IAAI;QACF,MAAM,SAAS,MAAM;QACrB,MAAM,KAAK,OAAO,EAAE;QACpB,MAAM,SAAS,MAAM,GAAG,KAAK,GAAG,IAAI;QAEpC,OAAO,SAAS,IAAI,CAAC;YAAE,WAAW;YAAM;QAAO;IACjD,EAAE,OAAO,OAAO;QACd,QAAQ,KAAK,CAAC,+BAA+B;QAC7C,OAAO,IAAI,SAAS,KAAK,SAAS,CAAC;YAAE,WAAW;YAAO,OAAO,MAAM,OAAO;QAAC,IAAI;YAC9E,QAAQ;QACV;IACF;AACF","debugId":null}}]
+}
