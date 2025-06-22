@@ -3,7 +3,7 @@ import clientPromise from '../../../../lib/mongodb';
 export async function POST(req) {
   try {
     const client = await clientPromise;
-    const db = client.db(); // default db from URI
+    const db = client.db();
     const collection = db.collection('contacts');
 
     const { name, email, message } = await req.json();
