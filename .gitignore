@@ -1,4 +1,15 @@
-node_modules/ 
-.vscode/ 
-dist/ 
-build/ 
+# Node dependencies
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# Build output
+dist/
+build/
+
+# Next.js specific
+.next/
+
+# Environment files
+.env*
