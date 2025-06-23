@@ -79,7 +79,6 @@ if (!uri) {
 let client;
 let clientPromise;
 if ("TURBOPACK compile-time truthy", 1) {
-    // Use global variable in development to preserve value across hot reloads
     if (!global._mongoClientPromise) {
         client = new __TURBOPACK__imported__module__$5b$externals$5d2f$mongodb__$5b$external$5d$__$28$mongodb$2c$__cjs$29$__["MongoClient"](uri, options);
         global._mongoClientPromise = client.connect().then((client)=>{
@@ -120,7 +119,6 @@ async function POST(request) {
         }
         const client = await __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$mongodb$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"];
         const db = client.db("User");
-        // Check if user exists
         const existingUser = await db.collection("users").findOne({
             email
         });
@@ -131,7 +129,6 @@ async function POST(request) {
                 status: 409
             });
         }
-        // TODO: You should hash passwords in production! Using plain text here for simplicity.
         await db.collection("users").insertOne({
             name,
             email,

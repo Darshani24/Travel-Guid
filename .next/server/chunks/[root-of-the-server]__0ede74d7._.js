@@ -79,7 +79,6 @@ if (!uri) {
 let client;
 let clientPromise;
 if ("TURBOPACK compile-time truthy", 1) {
-    // Use global variable in development to preserve value across hot reloads
     if (!global._mongoClientPromise) {
         client = new __TURBOPACK__imported__module__$5b$externals$5d2f$mongodb__$5b$external$5d$__$28$mongodb$2c$__cjs$29$__["MongoClient"](uri, options);
         global._mongoClientPromise = client.connect().then((client)=>{
@@ -123,7 +122,6 @@ async function POST(request) {
                 status: 401
             });
         }
-        // NOTE: Compare hashed passwords in production
         if (user.password !== password) {
             return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
                 error: "Invalid password"

@@ -145,7 +145,6 @@ const SignupPage = ()=>{
             });
             setStatus(res.data.message || "Signup successful!");
             if (res.status === 200) {
-                // Redirect to home page instead of /login
                 setTimeout(()=>router.push("/login"), 1500);
             }
         } catch (error) {
