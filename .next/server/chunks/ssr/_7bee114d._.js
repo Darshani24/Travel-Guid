@@ -46,7 +46,7 @@ function Home() {
                     columnNumber: 2
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    className: "bg-green-500 p-4 rounded-2xl text-xl ",
+                    className: "bg-neutral-300/20 border border-green-800 hover:bg-neutral-400/20 p-4 text-neutral-500 hover:text-neutral-800 rounded-2xl text-xl backdrop-blur-2xl shadow-2xl shadow-green-800 ",
                     children: "Downlod App"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.js",

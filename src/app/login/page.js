@@ -33,7 +33,7 @@ const LoginPage = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center bg-white px-6 py-10">
-      <div className="max-w-md w-full p-8 bg-green-50 rounded-lg shadow-lg">
+      <div className="max-w-md w-full p-8 bg-neutral-300/20 hover:bg-neutral-300/35 backdrop-blur-sm rounded-xl shadow-xl border border-green-900/30">
         <h1 className="text-3xl font-bold mb-6 text-center">Login</h1>
         <form onSubmit={handleLogin} className="space-y-6">
           <input
@@ -55,7 +55,7 @@ const LoginPage = () => {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-green-600 text-white py-3 rounded hover:bg-green-800 transition disabled:opacity-50"
+            className="w-full hover:bg-green-50/25 bg-neutral-400/20 border border-green-900/30 backdrop-blur-sm text-neutral-700/30 hover:text-gray-700 py-3 transition disabled:opacity-50 rounded-xl shadow-2xl"
           >
             {loading ? "Logging in..." : "Login"}
           </button>
@@ -69,7 +69,7 @@ const LoginPage = () => {
           Don't have an account?{" "}
           <button
             onClick={() => router.push("/signup")}
-            className="text-green-700 font-bold"
+            className="text-green-700 font-bold "
           >
             Signup
           </button>

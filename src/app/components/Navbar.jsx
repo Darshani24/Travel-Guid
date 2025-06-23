@@ -45,7 +45,7 @@ const Navbar = () => {
             Services
           </Link>
           <Link href="/login">
-            <button className="bg-green-500 hover:bg-white hover:text-green-700 text-white px-4 py-2 rounded-2xl transition">
+            <button className="bg-neutral-400/20 hover:bg-neutral-400/25  hover:text-green-700 text-neutral-300 backdrop-blur-sm border border-green-400/40 px-4 py-2 rounded-2xl transition">
               Login
             </button>
           </Link>

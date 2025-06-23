@@ -8,7 +8,7 @@ export default function Home() {
     
  <p className="text-lg pl-7 pt-4 pb-6 ">Travel Guide App helps travelers discover destinations, plan trips, and explore local experiences.It's fast,responsive,and easy to use making travel planning simple and enjoyable.</p>
       
-  <button className="bg-green-500 p-4 rounded-2xl text-xl ">Downlod App</button>
+  <button className="bg-neutral-300/20 border border-green-800 hover:bg-neutral-400/20 p-4 text-neutral-500 hover:text-neutral-800 rounded-2xl text-xl backdrop-blur-2xl shadow-2xl shadow-green-800 ">Downlod App</button>
      
     <div className="pt-5 w-[350px] h-[350px] md:h-[550px] md:w-full md:p-10 lg:h-[600px] lg:p-8">
   <Image

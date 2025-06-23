@@ -156,7 +156,7 @@ const SignupPage = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "min-h-screen flex items-center justify-center bg-white px-6 py-10",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-md w-full p-8 bg-green-50 rounded-lg shadow-lg",
+            className: "max-w-md w-full p-8 bg-neutral-300/20 hover:bg-neutral-300/35 backdrop-blur-sm rounded-xl shadow-xl border border-green-900/30",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                     className: "text-3xl font-bold mb-6 text-center",
@@ -221,7 +221,7 @@ const SignupPage = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             type: "submit",
                             disabled: loading,
-                            className: "w-full bg-green-600 text-white py-3 rounded hover:bg-green-800 transition disabled:opacity-50",
+                            className: "w-full hover:bg-green-50/25 bg-neutral-400/20 border border-green-900/30 backdrop-blur-sm text-neutral-700/30 hover:text-gray-700 py-3 rounded-xl transition disabled:opacity-50",
                             children: loading ? "Signing up..." : "Signup"
                         }, void 0, false, {
                             fileName: "[project]/src/app/signup/page.js",

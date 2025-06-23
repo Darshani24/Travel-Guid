@@ -22,22 +22,22 @@ const Aboutus
 
       
       <div className="grid md:grid-cols-2 gap-6 mb-10">
-        <div className="bg-green-200 border border-green-500 p-6 rounded-lg shadow">
+        <div className="bg-neutral-400/20 hover:bg-neutral-400/40 border border-green-500 p-6 rounded-lg shadow-xl">
           <h3 className="text-xl font-bold mb-2">Seamless Trip Planning</h3>
           <p>Plan trips effortlessly with our smart itinerary builder, maps, and budget planner.</p>
         </div>
 
-        <div className="bg-green-200 border border-green-500 p-6 rounded-lg shadow">
+        <div className="bg-neutral-400/20 hover:bg-neutral-400/40 border border-green-500 p-6 rounded-lg shadow-xl">
           <h3 className="text-xl font-bold mb-2">Local Insights</h3>
           <p>Explore destinations like a local with insider guides, hidden gems, and real traveler reviews.</p>
         </div>
 
-        <div className="bg-green-200 border border-green-500 p-6 rounded-lg shadow">
+        <div className="bg-neutral-400/20 hover:bg-neutral-400/40 border border-green-500 p-6 rounded-lg shadow-xl">
           <h3 className="text-xl font-bold mb-2">Offline Access</h3>
-          <p>Use maps and guides without internet — perfect for remote areas and international trips.</p>
+          <p>Use maps and guides without internet perfect for remote areas and international trips.</p>
         </div>
 
-        <div className="bg-green-200 border border-green-500 p-6 rounded-lg shadow ">
+        <div className="bg-neutral-400/20 hover:bg-neutral-400/40 border border-green-500 p-6 rounded-lg shadow-xl">
           <h3 className="text-xl font-bold mb-2">Community-Driven</h3>
           <p>Connect with other travelers, share tips, and join a global community of explorers.</p>
         </div>

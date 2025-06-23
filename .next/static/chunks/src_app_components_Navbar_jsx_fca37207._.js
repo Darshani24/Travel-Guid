@@ -127,7 +127,7 @@ const Navbar = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/login",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    className: "bg-green-500 hover:bg-white hover:text-green-700 text-white px-4 py-2 rounded-2xl transition",
+                                    className: "bg-neutral-400/20 hover:bg-neutral-400/25  hover:text-green-700 text-neutral-300 backdrop-blur-sm border border-green-400/40 px-4 py-2 rounded-2xl transition",
                                     children: "Login"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Navbar.jsx",
